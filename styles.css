@@ -4,7 +4,7 @@
 
 /* BASIC SELECTORS */
 /* Tag selectors */
- html {
+html {
    font-size: 18px;
  }
 
@@ -17,10 +17,13 @@ h2 {
 }
 
 header {
-  
+  border-bottom: 2px dotted black;
 }
-/* Class selectors */
 
+/* Class selectors */
+ul.class-list {
+  list-style-type: square;
+}
 
 /* ID selectors */
 
