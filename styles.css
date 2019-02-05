@@ -25,6 +25,18 @@ ul.class-list {
   list-style-type: square;
 }
 
+.item {
+  border: 2px solid black;
+}
+
+.even.item {
+  background-color: grey;
+}
+
+.odd.item {
+  background-color: black;
+  color: white;
+}
 /* ID selectors */
 
 
