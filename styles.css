@@ -38,14 +38,37 @@ ul.class-list {
   color: white;
 }
 /* ID selectors */
+#item1 {
+  font-size: 30px;
+}
 
-
+#item2 {
+  text-align: right;
+}
 /* ADVANCED SELECTORS */
 
-/* Combining selectors */
+ol > li {
+  padding: 15px;
+  background-color: grey;
+}
 
+.targeted-sublist {
+  padding: 0px;
+  background-color: white;
+}
 
- /*Direct child relationship*/
+ol > li:nth-child(odd) {
+  background-color: green;
+}
 
+[title~="Bitmaker"]:hover {
+  text-decoration: none;
+}
 
- /* Pseudo-selectors */
+.targeted-sublist:hover {
+  background-color: yellow;
+}
+
+.targeted-sublist:active {
+  background-color: red;
+}
